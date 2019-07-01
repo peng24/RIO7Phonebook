@@ -1,0 +1,4 @@
+keytool -genkey -v -keystore phonebook_key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias phoenbook_key
+
+pass 31197012
+
