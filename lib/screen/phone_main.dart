@@ -38,7 +38,6 @@ class _PhoneMainState extends State<PhoneMain> {
                       const EdgeInsets.only(top: 10.0, right: 10.0, left: 10.0),
                   child: Center(
                     child: RaisedButton(
-                      color: Colors.blue[50],
                       onPressed: () {
                         Navigator.push(context,
                             MaterialPageRoute(builder: (context) => BigBoss()));
